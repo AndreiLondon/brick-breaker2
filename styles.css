@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#board{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    margin-top: 60px; 
+}
+
+#current-ball{
+    position: relative;
+    left: 90px;
+    top: 400px;
+}
+
+.ball{
+    width: 10px;
+    height: 10px;
+    background-image: url("images/ball.svg");   
+}
+
+.ball-margin{
+    margin-left: 4px;
+}
+
+#bridge{
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    background-image: url('/images/bridge_2.jpg');
+    background-size: cover;
+}
+
+#message{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    position: absolute;  
+    font-size: 48px; 
+    z-index: 2;  
+    background: rgba(0,0,0,0.5); 
+}
+
+.sub-message{    
+    font-size: 24px;
+    z-index: 2;
+}
+
+.header{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lives{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.power-up{
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    z-index: 2;
+    background-size: cover;
+    
+}
+
+.wall-block {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url('/images/red_block.jpg');
+    background-size: cover;
+
+}
+
+
